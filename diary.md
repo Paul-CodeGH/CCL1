@@ -28,3 +28,13 @@ I spent some time improving the collision detection once again, fine-tuning it t
 A major milestone today was turning the Character object into a class. This allowed me to better organize the code and give the character more functionality, like easily updating its properties or adding new behaviors. I also worked on creating placeholder animations for the character, although they’re quite simple for now. Even with these basic animations, the game feels a lot more dynamic, and I’m excited to flesh them out further in the coming days.
 
 Performance was also a key focus today. I made several improvements to optimize how the game runs. With the addition of new objects and mechanics, it was important to ensure the game runs smoothly and doesn’t become sluggish. After some tweaks, the game’s performance is definitely improved, and I’m looking forward to continuing to refine it.
+
+16.01
+
+Today, I finished working on my actual mechanics of the game and tweaked my hamster's movement settings. Also, I improved my Main Page by adding a few more functionalities. Then, I started drawing my first prototype of the first level's map/environment, which isn't finished yet.
+
+17.01
+
+On January 17, 2025, I made significant progress in my game development project. I introduced a new interactive object mechanic, allowing players to push certain objects to advance through levels. This addition enhances the game's interactivity.
+
+I also created new sprites for the hamster character, enriching its visual appeal and providing a more engaging player experience. Additionally, I designed the map for the first level, carefully placing objects to create a balanced and challenging environment.
