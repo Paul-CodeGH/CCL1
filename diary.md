@@ -38,3 +38,18 @@ Today, I finished working on my actual mechanics of the game and tweaked my hams
 On January 17, 2025, I made significant progress in my game development project. I introduced a new interactive object mechanic, allowing players to push certain objects to advance through levels. This addition enhances the game's interactivity.
 
 I also created new sprites for the hamster character, enriching its visual appeal and providing a more engaging player experience. Additionally, I designed the map for the first level, carefully placing objects to create a balanced and challenging environment.
+
+
+20.01
+
+Finished drawing the background for the second level, added objects to the map and tested everything, making sure there are no glitches or objects that may block the hamster.
+
+21.01
+
+Worked on my main screen, finished designing the main screen page, adding functionality for the controlls button. 
+
+22.01
+
+Cleaned up my code a bit, putting variables and functions to other functions
+Began drawing the map for the 3rd level
+Adding the finish game screen with a restart button
