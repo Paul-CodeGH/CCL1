@@ -53,3 +53,7 @@ Worked on my main screen, finished designing the main screen page, adding functi
 Cleaned up my code a bit, putting variables and functions to other functions
 Began drawing the map for the 3rd level
 Adding the finish game screen with a restart button
+
+23.01
+
+Implementing the 3rd level and adding Level Obstacles. Drawing objects, like a metal plate for an air vent
