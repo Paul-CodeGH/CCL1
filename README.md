@@ -1,6 +1,6 @@
 Game Documentation
 
-This documentation provides an overview of the structure, features, and design decisions of my game. While I recognize that the overall structure is somewhat unorganized, this was primarily due to the limited time I had to refine and clean up the code, as I was preoccupied with other responsibilities after the coding labs. I want to stress that every element of this game was created entirely from scratch without using any templates, such as the one provided by Lukas, or any external assistance.
+This documentation provides an overview of the structure, features, and design decisions of my game. While I recognize that the overall structure is somewhat unorganized, this was primarily due to the limited time I had to refine and clean up the code, as I was preoccupied with other responsibilities after the coding labs. I want to specify that every element of this game was created entirely from scratch without using any templates, such as the one provided by Lukas, or any external assistance.
 
 Overview of the Game
 
