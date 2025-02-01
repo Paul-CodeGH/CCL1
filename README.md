@@ -39,7 +39,9 @@ Each class in the game includes a draw() function, responsible for rendering obj
 The character class is particularly complex, as it incorporates several advanced features:
 
 Gravity Simulation: The character class includes methods to simulate gravity, ensuring the character behaves realistically when jumping or falling.
+
 Sprite Sheet Animation: The character’s appearance is rendered using sprite sheet animations, allowing for smooth and visually appealing movement.
+
 Dynamic Customization: The methods within the character class are designed to be flexible, enabling adjustments to the character’s behavior or appearance to suit different gameplay scenarios.
 
 Game Loop and Level Loading
@@ -49,7 +51,9 @@ The main file contains the game loop, which is relatively long. I am aware that 
 The game loop consists of two primary tasks:
 
 Rendering – It calls a draw() function for the character, background, and all in-game objects.
+
 Collision Handling – It runs a checkForCollision() function for the character and every object in the game to determine interactions.
+
 To manage game objects and the background efficiently, I implemented arrays to store their instances. Whenever a new object is created, it is added to the corresponding array. This approach allows the game to iterate over all objects efficiently during each frame of the game loop. The background is also a class, meaning it is treated like any other object and follows the same logic.
 
 Game Start and Level Loading
@@ -82,9 +86,12 @@ Game Architecture
 The game is built with a structured yet flexible architecture, featuring 10 classes and 4 JavaScript files, each serving distinct purposes:
 
 Sound Management: A dedicated file to handle audio effects.
+
 Character Creation: A file for defining and exporting the character.
 Utility Functions: A file containing reusable functions for various game mechanics.
+
 Global Variables: A file where key global values are stored in an array for easy management.
+
 Each class includes a draw() method to render its respective objects or the character on the map. A horizontal camera system ensures the character remains centered on the screen, with the background scrolling dynamically as the character moves. This gives the game a polished and professional feel.
 
 The character class is particularly sophisticated, incorporating methods for handling gravity and animations using sprite sheets. These methods are highly customizable, allowing for fine-tuning to achieve the desired visual effects.
@@ -93,8 +100,12 @@ Collision Detection
 
 The game employs two distinct methods for collision detection:
 
-Class-specific methods: Each class includes a collision-checking method that determines the interaction between objects, such as walls, platforms, or collectibles.
+Class-specific methods: 
+
+Each class includes a collision-checking method that determines the interaction between objects, such as walls, platforms, or collectibles.
+
 Global collision logic: A centralized checkForCollision() function in the main file, which dictates the character's behavior upon colliding with different object types.
+
 Although the game lacks a generic base object class, a class called GameBaseObject was created to handle the collision effects for walls and platforms.
 
 Game Loop
@@ -102,7 +113,9 @@ Game Loop
 The main file includes the game loop, which drives the core mechanics:
 
 Rendering: The loop draws the character, background, and all objects on the screen during each frame.
+
 Collision Handling: It evaluates interactions between the character and all other objects to determine the game's response.
+
 Arrays are used to manage game objects and backgrounds efficiently, ensuring that all instances are easily accessible for rendering and logic execution.
 
 Level Management
