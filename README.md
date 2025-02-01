@@ -13,9 +13,13 @@ Code Structure
 The game’s codebase comprises 10 classes and 4 additional JavaScript files. Each of these components plays a distinct role in the overall functionality of the game. Below is a breakdown of the files and their respective purposes:
 
 Sound Management File: This file is dedicated to managing and storing all sound effects used in the game, such as background music, jumping sounds, and collision effects.
+
 Character Creation and Export File: This file handles the creation and export of the character class, allowing the character to be instantiated and used in the main game logic.
+
 Utility Functions File: This file contains reusable functions that are frequently called in the main file. Examples include helper methods for specific calculations or actions that are repeated throughout the game.
+
 Global Variables File: This file is used to store global variables, organized within an array. These variables serve as constants or references that are accessed across multiple files.
+
 While I could have used a more structured approach, such as creating a base object class or further modularizing the code, I opted for a more hardcoded and straightforward approach to better understand how everything works at a fundamental level.
 
 Collision Detection
@@ -23,7 +27,9 @@ Collision Detection
 Collision detection is a key component of the game and is implemented in two distinct ways:
 
 Object-Specific Collision Methods: Each class file includes a method to check for collisions related to that specific object. For example, walls and platforms have their own collision detection logic to determine how they interact with other objects in the game. These methods typically focus on what should happen to the object itself during a collision.
+
 Centralized Collision Handling for the Character: In the main file, I implemented a centralized collision detection function specifically for the character. This function determines the character’s behavior upon colliding with different objects. For instance, if the character collides with food, it triggers the growth mechanic, whereas a collision with a wall stops the character's movement.
+
 Although there is no universal gameBaseObject class, I created a class named “gameBaseObject” to represent walls and platforms. This class includes typical collision effects and basic functionality.
 
 Development Approach and Design Choices
