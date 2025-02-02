@@ -5,6 +5,7 @@ This documentation provides an overview of the structure, features, and design d
 ## 🌐 **Play the Game**
 
 (If, for some reason you are unable to complete the levels, increase character speed inside createCharacter.js file. Current value: 760)
+
 (Feels like github is sometimes not able to find specific files and when the second level starts, the game freezes. That happens especially when I'm on my laptop, but it works on my desktop most of the time. Btw, when running the game in VSC, everything works well)
 
 https://paul-codegh.github.io/CCL1/
