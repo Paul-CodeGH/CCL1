@@ -2,6 +2,12 @@
 
 This documentation provides an overview of the structure, features, and design decisions of my game. While I recognize that the overall structure is somewhat unorganized, this was primarily due to the limited time I had to refine and clean up the code, as I was preoccupied with other responsibilities after the coding labs. I want to specify that every element of this game was created entirely from scratch without using any templates, such as the one provided by Lukas, or any external assistance.
 
+## 🌐 **Play the Game**
+(Feels like github is sometimes not able to find specific files and after the second level, the game freezes. That happens especially when I'm on my laptop, but it works on my desktop most of the time. Btw, when running the game in VSC, everything works well)
+
+https://paul-codegh.github.io/CCL1/
+
+
 ### Overview of the Game ###
 
 The game is a 2D platformer in which players take on the role of a hamster. The primary goal is to collect as much food as possible while navigating through a series of levels. Players must overcome obstacles by jumping, pushing objects, and strategizing to successfully complete each level. A unique mechanic adds depth to the gameplay: the hamster grows in size by 1% each time it eats food, which can affect its ability to navigate the environment.
