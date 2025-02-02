@@ -8,7 +8,8 @@ The game is a 2D platformer in which players take on the role of a hamster. The 
 
 
 Main Character xD
-<img src="![Image](https://github.com/user-attachments/assets/1ed96f6e-638a-47ae-b8b6-ef932dee2fac)" width="300" height="300">
+<img src="![ham1](https://github.com/user-attachments/assets/5ebb7092-5839-4b7f-ab36-10eec81916a2)
+" width="300" height="300">
 
 ![Image](https://github.com/user-attachments/assets/1ed96f6e-638a-47ae-b8b6-ef932dee2fac)
 
