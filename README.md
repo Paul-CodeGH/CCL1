@@ -1,8 +1,8 @@
-Game Documentation
+### Game Documentation ###
 
 This documentation provides an overview of the structure, features, and design decisions of my game. While I recognize that the overall structure is somewhat unorganized, this was primarily due to the limited time I had to refine and clean up the code, as I was preoccupied with other responsibilities after the coding labs. I want to specify that every element of this game was created entirely from scratch without using any templates, such as the one provided by Lukas, or any external assistance.
 
-Overview of the Game
+### Overview of the Game ###
 
 The game is a 2D platformer in which players take on the role of a hamster. The primary goal is to collect as much food as possible while navigating through a series of levels. Players must overcome obstacles by jumping, pushing objects, and strategizing to successfully complete each level. A unique mechanic adds depth to the gameplay: the hamster grows in size by 1% each time it eats food, which can affect its ability to navigate the environment.
 
@@ -14,9 +14,10 @@ The game is a 2D platformer in which players take on the role of a hamster. The 
 ![Image](https://github.com/user-attachments/assets/09329482-dde2-44de-9656-ffd881480aca)
 
 
+### Growth Mechanic ###
 This growth mechanic introduces an interesting challenge, where players must balance collecting food with ensuring the hamster remains agile enough to complete levels. The game is designed to provide engaging and dynamic gameplay that tests the player’s ability to plan and adapt to changing conditions.
 
-Code Structure
+### Code Structure ###
 
 The game’s codebase comprises 10 classes and 4 additional JavaScript files. Each of these components plays a distinct role in the overall functionality of the game. Below is a breakdown of the files and their respective purposes:
 
@@ -30,7 +31,7 @@ Global Variables File: This file is used to store global variables, organized wi
 
 While I could have used a more structured approach, such as creating a base object class or further modularizing the code, I opted for a more hardcoded and straightforward approach to better understand how everything works at a fundamental level.
 
-Collision Detection
+### Collision Detection ###
 
 Collision detection is a key component of the game and is implemented in two distinct ways:
 
@@ -40,13 +41,13 @@ Centralized Collision Handling for the Character: In the main file, I implemente
 
 Although there is no universal gameBaseObject class, I created a class named “gameBaseObject” to represent walls and platforms. This class includes typical collision effects and basic functionality.
 
-Development Approach and Design Choices
+### Development Approach and Design Choices ###
 
 This project was my second or third attempt at game development, and I approached it as a learning experience. My primary goal was to gain a deeper understanding of game mechanics and how individual components interact within a larger system. As a result, I intentionally hardcoded many elements to solidify my grasp of these concepts.
 
 I acknowledge that the code structure is not ideal, and there is significant room for improvement in terms of organization and modularity. However, this does not reflect my usual programming practices. In future projects, I plan to apply more advanced techniques to achieve cleaner and more efficient codebases.
 
-Rendering and Camera System
+### Rendering and Camera System ###
 
 Each class in the game includes a draw() function, responsible for rendering objects or the character on the game map. The rendering is tied to a horizontal camera system that I implemented. This system keeps the character centered on the screen, creating the effect of the background scrolling to the left or right as the character moves in either direction.
 
@@ -58,11 +59,11 @@ Sprite Sheet Animation: The character’s appearance is rendered using sprite sh
 
 Dynamic Customization: The methods within the character class are designed to be flexible, enabling adjustments to the character’s behavior or appearance to suit different gameplay scenarios.
 
-Game Loop and Level Loading
+### Game Loop and Level Loading ###
 
 The main file contains the game loop, which is relatively long. I am aware that I could have optimized it by creating separate methods within each class, especially within the character class, and combining multiple related functions into a single method. However, I deliberately chose a more complex approach, partly as a challenge and partly to gain a deeper understanding of how everything interacts within the game.
 
-The game loop consists of two primary tasks:
+### The game loop consists of two primary tasks:
 
 Rendering – It calls a draw() function for the character, background, and all in-game objects.
 
@@ -70,7 +71,9 @@ Collision Handling – It runs a checkForCollision() function for the character 
 
 To manage game objects and the background efficiently, I implemented arrays to store their instances. Whenever a new object is created, it is added to the corresponding array. This approach allows the game to iterate over all objects efficiently during each frame of the game loop. The background is also a class, meaning it is treated like any other object and follows the same logic.
 
-Game Start and Level Loading
+### Game Start and Level Loading ###
+![backgroundMain](https://github.com/user-attachments/assets/7d616a00-d4ea-4fca-9f9f-5d077615e8a5)
+
 
 At the beginning of the game, a startGame() function is executed. This function:
 
@@ -83,7 +86,7 @@ The background that should be displayed.
 The starting coordinates of the character for each level.
 Currently, the game consists of three levels, where the first level is represented as level 0. Progression between levels is handled through portals, which the player must reach at the end of the map to advance.
 
-End Screen and Restart Mechanism
+### End Screen and Restart Mechanism ###
 
 When the game is completed, an end screen is displayed, providing feedback to the player. To restart the game, the player can press a button, which simply reloads the entire page. This is a straightforward but effective way to reset all game elements without manually hiding or displaying HTML elements. While this approach could be refined further, it serves its purpose efficiently.
 
@@ -91,11 +94,11 @@ When the game is completed, an end screen is displayed, providing feedback to th
 
 
 
-Game Development Summary
+### Game Development Summary ###
 
 The project is a 2D platformer game developed entirely from scratch, showcasing creativity, problem-solving, and foundational programming principles. The game's concept is simple yet engaging: players control a hamster whose goal is to collect food, jump across platforms, push objects, and complete levels successfully. A unique feature is that the hamster grows by 1% with every piece of food consumed, adding a dynamic and entertaining mechanic to the gameplay.
 
-Game Architecture
+### Game Architecture ###
 
 The game is built with a structured yet flexible architecture, featuring 10 classes and 4 JavaScript files, each serving distinct purposes:
 
@@ -110,7 +113,7 @@ Each class includes a draw() method to render its respective objects or the char
 
 The character class is particularly sophisticated, incorporating methods for handling gravity and animations using sprite sheets. These methods are highly customizable, allowing for fine-tuning to achieve the desired visual effects.
 
-Collision Detection
+### Collision Detection ###
 
 The game employs two distinct methods for collision detection:
 
@@ -122,7 +125,7 @@ Global collision logic: A centralized checkForCollision() function in the main f
 
 Although the game lacks a generic base object class, a class called GameBaseObject was created to handle the collision effects for walls and platforms.
 
-Game Loop
+### Game Loop ###
 
 The main file includes the game loop, which drives the core mechanics:
 
@@ -132,11 +135,11 @@ Collision Handling: It evaluates interactions between the character and all othe
 
 Arrays are used to manage game objects and backgrounds efficiently, ensuring that all instances are easily accessible for rendering and logic execution.
 
-Level Management
+### Level Management ###
 
 A loadLevel() function is responsible for loading the appropriate objects, backgrounds, and starting coordinates for the character based on the level. The game currently features three levels, starting from level 0. Players progress by reaching portals at the end of each level. This function, while lengthy, ensures each level has its unique layout and gameplay elements.
 
-Start and End Mechanics
+### Start and End Mechanics ###
 
 The game starts with a startGame() function, which transitions from the main menu to the gameplay environment. It hides the menu, displays the canvas, and initializes the score counter. Upon completing the game, an end screen is shown, and players can restart the game by pressing a button that reloads the page, a simple yet effective solution for resetting the game state.
 
