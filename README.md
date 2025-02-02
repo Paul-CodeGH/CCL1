@@ -72,6 +72,7 @@ Collision Handling – It runs a checkForCollision() function for the character 
 To manage game objects and the background efficiently, I implemented arrays to store their instances. Whenever a new object is created, it is added to the corresponding array. This approach allows the game to iterate over all objects efficiently during each frame of the game loop. The background is also a class, meaning it is treated like any other object and follows the same logic.
 
 ### Game Start and Level Loading ###
+(background Image for the Main Screen)
 ![backgroundMain](https://github.com/user-attachments/assets/7d616a00-d4ea-4fca-9f9f-5d077615e8a5)
 
 
