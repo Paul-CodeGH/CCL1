@@ -7,12 +7,10 @@ Overview of the Game
 The game is a 2D platformer in which players take on the role of a hamster. The primary goal is to collect as much food as possible while navigating through a series of levels. Players must overcome obstacles by jumping, pushing objects, and strategizing to successfully complete each level. A unique mechanic adds depth to the gameplay: the hamster grows in size by 1% each time it eats food, which can affect its ability to navigate the environment.
 
 
-Main Character xD
-
-
+### Player Character ###
 ![Image](https://github.com/user-attachments/assets/1ed96f6e-638a-47ae-b8b6-ef932dee2fac)
 
-SpriteSheets used for creating the hamster's movements
+## 🎨 **Spritesheets**
 ![Image](https://github.com/user-attachments/assets/09329482-dde2-44de-9656-ffd881480aca)
 
 
